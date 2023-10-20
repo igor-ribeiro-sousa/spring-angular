@@ -1,0 +1,9 @@
+package com.igor.pro.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.igor.pro.domain.Chamado;
+
+public interface ChamadoRepository extends JpaRepository<Chamado, Integer> {
+
+}
